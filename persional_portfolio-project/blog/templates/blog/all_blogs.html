@@ -1,0 +1,18 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+
+<h1>All Blogs</h1>
+<p>Preyash has written {{ blogs.count }} Blog{{ blogs.count|pluralize }}.</p>
+
+{% for blog in blogs %}
+<a href="{% url 'blog:detail' blog.id %}"><h2>{{blog.title}}</h2></a>
+<h3>{{blog.shortDescription|striptags|truncatechars:100}}</h3>
+<p>{{blog.mainBody|safe|truncatechars:50}}</p>
+<img src="{{blog.image1.url}}" height="100" width="100" />
+{% if blog.image2 %}
+<img src="{{blog.image2.url}}" height="100" width="100" />
+{% endif %}
+{% endfor %}
+
+{% endblock %}

@@ -10,6 +10,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1oQvowXtDM9L7aXON0JTbW1KaTi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -19,14 +27,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\blog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\portfolio\static\portfolio" />
+      <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\portfolio\templates\portfolio" />
+      <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\portfolio\ststic\portfolio" />
       <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\portfolio\template\portfolio" />
       <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\portfolio\template" />
-      <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\portfolio" />
-      <recent name="C:\Users\Preyash\Documents\GitHub\portfolio-project\persional_portfolio-project\persional_portfolio" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,5 +62,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
